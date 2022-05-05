@@ -1,0 +1,88 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  font-family: nunito, sans-serif;
+  align-items: center;
+  justify-content: center;
+  width: 235px;
+  height: 402px;
+  border: 1px solid #eeeeee;
+  position: relative;
+}
+
+.card-container img {
+  height: 261px;
+  margin: 0;
+}
+
+.card-container h3 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.17px;
+  color: #666666;
+  text-transform: uppercase;
+  margin-left: 12px;
+}
+
+.card-container h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.1px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-left: 12px;
+}
+
+.card-container span {
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 10.91px;
+  color: #666666;
+  position: absolute;
+  text-transform: uppercase;
+  top: 10px;
+  left: 10px;
+}
+
+.verao-2022 {
+  border: 1px solid #666666;
+  padding: 5px 5px 4px 6px;
+}
+
+.off-20 {
+  padding: 5px 6px 4px 6px;
+  background-color: #EBD7CE;
+}
+
+.lancamento {
+  padding: 5px 6px 4px 7px;
+  background-color: #824D3E;
+  color: #ffffff !important;
+}
+
+.card-title {
+  margin-bottom: 9px;
+}
+
+.card-price {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.card-price-12 {
+  margin-top: 0;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.icon-heart {
+  position: absolute;
+  width: 15.68px;
+  height: 13.67;
+  top: -112.25px;
+  right: 12.16px;
+}
