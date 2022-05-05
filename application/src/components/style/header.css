@@ -1,0 +1,28 @@
+header {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+nav {
+  max-width: 1004px;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.logo-container img {
+  margin-right: -40px;
+}
+
+.logo-container h2 {
+  font-family: montserrat, sans-serif;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 7px;
+}
