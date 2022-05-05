@@ -5,7 +5,9 @@ import SimpleSlider from "./SimpleSlider";
 const Highlights = (_props) => {
   return (
     <main>
-      <h1>Destaques</h1>
+      <div className="h1-container">
+        <h1 className="h1-highlights">Destaques</h1>
+      </div>
       <SimpleSlider />
     </main>
   )

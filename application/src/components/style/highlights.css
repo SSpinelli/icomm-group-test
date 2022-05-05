@@ -3,3 +3,17 @@ main {
   margin: 0 auto;
 }
 
+.h1-highlights {
+  text-transform: uppercase;
+  font-family: nunito, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35.46px;
+  margin-bottom: 21px;
+  margin-top: 42px;
+}
+
+.h1-container {
+  display: flex;
+  justify-content: center;
+}
