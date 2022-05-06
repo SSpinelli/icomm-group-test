@@ -51,6 +51,10 @@ const SliderCard = (props) => {
     value.setCartItens([...value.cartItens, props.card])
   }
 
+  const localeCoin = (price) => {
+    return price.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+  } 
+
   return (
     <div className="card-container" onMouseEnter={hoverIn} onMouseLeave={hoverOf}>
       <span className={tagToUse(props.card.tag)}>{props.card.tag}</span>
@@ -59,8 +63,8 @@ const SliderCard = (props) => {
       <div className="text-container">
         <h3 className="card-title">{props.card.title}</h3>
         <div className="price-container">
-          <h2>{`R$${props.card.price},00`}</h2>
-          <h3>{`12x R$${props.card.price / 12},00`}</h3>
+          <h2>{`R$${props.card.price}`}</h2>
+          <h3>{`12x ${localeCoin(props.card.price / 12)}`}</h3>
         </div>
       </div>
       {showBtn && <button onClick={handleBtn} className="purchase-btn">Comprar</button>}
