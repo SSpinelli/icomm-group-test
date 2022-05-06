@@ -12,7 +12,6 @@ export default class PreviousNextMethods extends React.Component {
     super(props);
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);
-    this.clickDot = this.clickDot.bind(this);
     this.state = {
       countSlider: 0,
     }
@@ -25,19 +24,6 @@ export default class PreviousNextMethods extends React.Component {
   previous() {
     const { countSlider } = this.state;
     this.setState({countSlider: countSlider - 1}, this.slider.slickPrev())
-  }
-
-  clickDot(event) {
-    const allDots = document.querySelectorAll('.slick-dots ul li h1');
-    allDots.forEach((dot, index) => {
-      if (index === Number(event.target.id)) {
-        dot.classList.add('ativo')
-        dot.classList.remove('inativo')
-      } else {
-        dot.classList.remove('ativo')
-        dot.classList.add('inativo')
-      }
-    })
   }
 
   render() {
@@ -78,18 +64,9 @@ export default class PreviousNextMethods extends React.Component {
             infinite: false,
             dots: true,
             appendDots: dots => (
-              <div
-                style={{
-                  backgroundColor: "#fff",
-                  marginTop: "50px"
-                }}
-                onClick={this.clickDot}
-              >
+              <div>
                 <ul> {dots} </ul>
               </div>
-            ),
-            customPaging: (i) => (
-                <h1 id={i} className={i === 0 ? 'ativo' : 'inativo'}>•</h1>
             ),
           }
         }
