@@ -49,15 +49,7 @@ export default class PreviousNextMethods extends React.Component {
           }
         },
         {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 414,
+          breakpoint: 667,
           settings: {
             slidesToShow: 1.5,
             slidesToScroll: 1,

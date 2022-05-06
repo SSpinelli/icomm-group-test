@@ -18,7 +18,7 @@ main {
   justify-content: center;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 667px) {
   main {
     margin-top: 200px;
   }

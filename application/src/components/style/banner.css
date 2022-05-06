@@ -12,7 +12,7 @@
   height: 247px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 667px) {
   .banner-container {
     max-width: 414px;
     max-height: 188.02px;

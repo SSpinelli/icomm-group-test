@@ -29,7 +29,7 @@
   font-size: 16px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 667px) {
   .slider-container {
     width: 414px;
     position: relative;

@@ -114,7 +114,7 @@
   flex-direction: column;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 667px) {
   .card-container {
     margin-left: 20px;
   }
