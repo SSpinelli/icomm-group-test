@@ -1,17 +1,6 @@
-.dots {
-  display: flex;
-  flex-direction: column;
-}
-
 .slick-slide div {
   display: flex;
   justify-content: space-around;
-}
-
-.dots h1 {
-  height: 16px;
-  width: 16px;
-  margin-left: 10px;
 }
 
 .inativo {
@@ -25,6 +14,21 @@
   width: 1014.5px;
   position: relative;
   margin: 0 auto 50px auto;
+}
+
+.slick-dots ul {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots ul li {
+  margin: -1px;
+}
+
+.slick-dots ul li h1 {
+  height: 16px;
+  width: 16px;
+  margin: 0;
 }
 
 @media (max-width: 414px) {

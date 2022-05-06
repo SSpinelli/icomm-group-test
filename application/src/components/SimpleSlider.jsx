@@ -28,7 +28,7 @@ export default class PreviousNextMethods extends React.Component {
   }
 
   clickDot(event) {
-    const allDots = document.querySelectorAll('.dots h1')
+    const allDots = document.querySelectorAll('.slick-dots ul li h1');
     allDots.forEach((dot, index) => {
       if (index === Number(event.target.id)) {
         dot.classList.add('ativo')
@@ -83,14 +83,13 @@ export default class PreviousNextMethods extends React.Component {
                   backgroundColor: "#fff",
                   marginTop: "50px"
                 }}
+                onClick={this.clickDot}
               >
-                <ul style={{ margin: "-15px", display: 'flex', justifyContent: 'center', alignItems: 'center' }}> {dots} </ul>
+                <ul> {dots} </ul>
               </div>
             ),
             customPaging: (i) => (
-              <div className="dots">
-                <h1 id={i} className={i === 0 ? 'ativo' : 'inativo'} onClick={this.clickDot}>•</h1>
-              </div>
+                <h1 id={i} className={i === 0 ? 'ativo' : 'inativo'}>•</h1>
             ),
           }
         }
