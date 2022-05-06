@@ -59,8 +59,8 @@ const SliderCard = (props) => {
       <div className="text-container">
         <h3 className="card-title">{props.card.title}</h3>
         <div className="price-container">
-          <h2 className="card-price">{`R$${props.card.price},00`}</h2>
-          <h3 className="card-price-12">{`12x R$${props.card.price / 12},00`}</h3>
+          <h2>{`R$${props.card.price},00`}</h2>
+          <h3>{`12x R$${props.card.price / 12},00`}</h3>
         </div>
       </div>
       {showBtn && <button onClick={handleBtn} className="purchase-btn">Comprar</button>}

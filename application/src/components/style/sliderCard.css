@@ -74,13 +74,14 @@
   margin-bottom: 9px;
 }
 
-.card-price {
+.price-container h2 {
   margin-top: 0;
   margin-bottom: 1px;
 }
 
-.card-price-12 {
+.price-container h3 {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .icon-heart {
