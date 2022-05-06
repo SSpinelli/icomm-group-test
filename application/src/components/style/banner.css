@@ -19,10 +19,10 @@
     grid-template-columns: 1fr;
     padding-top: 23px;
     gap: 20px;
-    margin: auto 22px auto 19px;
   }
   .banner-container img {
     width: 373px;
     height: 188.02px;
+    margin: auto 22px auto 19px;
   }
 }
