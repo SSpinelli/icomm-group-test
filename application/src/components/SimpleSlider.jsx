@@ -98,7 +98,7 @@ export default class PreviousNextMethods extends React.Component {
     };
     return (
       <div className='slider-container'>
-        <Slider className="slider2" ref={c => (this.slider = c)} {...settings}>
+        <Slider ref={c => (this.slider = c)} {...settings}>
           { mock.map((i, index) => (
             <SliderCard key={index} card={i} />
           )) }

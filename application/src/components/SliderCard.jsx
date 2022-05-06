@@ -58,7 +58,7 @@ const SliderCard = (props) => {
       <img src={props.card.url} alt={props.card.title} />
       <div className="text-container">
         <h3 className="card-title">{props.card.title}</h3>
-        <div>
+        <div className="price-container">
           <h2 className="card-price">{`R$${props.card.price},00`}</h2>
           <h3 className="card-price-12">{`12x R$${props.card.price / 12},00`}</h3>
         </div>

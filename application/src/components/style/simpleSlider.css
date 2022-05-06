@@ -1,6 +1,17 @@
+.dots {
+  display: flex;
+  flex-direction: column;
+}
+
+.slick-slide div {
+  display: flex;
+  justify-content: space-around;
+}
+
 .dots h1 {
   height: 16px;
   width: 16px;
+  margin-left: 10px;
 }
 
 .inativo {

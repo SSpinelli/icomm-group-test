@@ -9,7 +9,7 @@
   align-items: center;
   position: absolute;
   top: 175px;
-  left: -60px;
+  left: -51px;
 }
 
 .last-slide-left {
@@ -22,7 +22,7 @@
   align-items: center;
   position: absolute;
   top: 175px;
-  left: -60px;
+  left: -51px;
 }
 
 .arrow-right {
@@ -36,7 +36,7 @@
   align-items: center;
   position: absolute;
   top: 175px;
-  right: -48px;
+  right: -53px;
 }
 
 .last-slide-right {
@@ -49,7 +49,7 @@
   align-items: center;
   position: absolute;
   top: 175px;
-  right: -48px;
+  right: -53px;
 }
 
 @media (max-width: 414px) {

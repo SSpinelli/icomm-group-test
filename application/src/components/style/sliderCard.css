@@ -4,7 +4,7 @@
   font-family: nunito, sans-serif;
   align-items: center;
   justify-content: center;
-  width: 241px;
+  width: 235px;
   min-height: 402px;
   max-height: 471px;
   border: 1px solid #eeeeee;
@@ -98,13 +98,18 @@
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   line-height: 17.07px;
   letter-spacing: 1px;
   background-color: #824D3E;
   border: none;
   margin: 25px 0 17px 0;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 414px) {
