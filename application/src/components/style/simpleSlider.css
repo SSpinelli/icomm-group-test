@@ -12,6 +12,7 @@
 .slick-dots ul {
   display: flex;
   justify-content: center;
+  padding-left: 0;
 }
 
 .slick-dots ul li {

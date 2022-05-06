@@ -52,7 +52,7 @@
   right: -53px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 667px) {
   .button {
     display: none;
   }
