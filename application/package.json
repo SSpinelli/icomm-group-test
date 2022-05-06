@@ -12,10 +12,6 @@
     "react-slick": "^0.29.0",
     "web-vitals": "^2.1.4"
   },
-<<<<<<< HEAD:package.json
-  "homepage": "https://sspinelli.github.io/teste-front-end",
-=======
->>>>>>> parent of 6d5c968... adiciona pacote hg-pages:application/package.json
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

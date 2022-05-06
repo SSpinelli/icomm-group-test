@@ -1,1 +1,25 @@
+.dots h1 {
+  height: 16px;
+  width: 16px;
+}
 
+.inativo {
+  color: #c4c4c4;
+}
+.ativo {
+  color: #666666;
+}
+
+.slider-container {
+  width: 1014.5px;
+  position: relative;
+  margin: 0 auto 50px auto;
+}
+
+@media (max-width: 414px) {
+  .slider-container {
+    width: 414px;
+    position: relative;
+    margin: 0 auto 50px auto;
+  }
+}
