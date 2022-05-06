@@ -47,7 +47,7 @@ const mock = [
   },
   {
     tag: "Lançamento",
-    title: "Blazer feminino liocel punho 8",
+    title: "Blazer feminino liocel punho 4",
     price: 759.00,
     url: foto1
   }
