@@ -12,7 +12,7 @@
   height: 247px;
 }
 
-@media (max-width: 667px) {
+/* @media (max-width: 667px) {
   .banner-container {
     max-width: 414px;
     max-height: 188.02px;
@@ -25,9 +25,9 @@
     height: 188.02px;
     margin: auto 22px auto 19px;
   }
-}
+} */
 
-/* mobile
+@media (max-width: 667px) {
  .banner-container {
   max-width: 414px;
   max-height: 188.02px;
@@ -35,8 +35,11 @@
   padding-top: 23px;
   gap: 20px;
 }
-.banner-container img {
-  width: 333px;
-  height: 188.02px;
-  margin: auto 22px auto 19px;
-} */
+  .banner-container img {
+    display: flex;
+    flex: 1;
+    width: 333px;
+    height: 188.02px;
+    margin: auto 22px auto 19px;
+  }
+}
