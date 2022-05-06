@@ -17,3 +17,9 @@ main {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 414px) {
+  main {
+    margin-top: 200px;
+  }
+}
