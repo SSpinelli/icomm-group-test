@@ -46,10 +46,6 @@
 @media screen and (max-width: 667px) {
   body {
       overflow-x: hidden !important;
-      display: flex !important;
-      flex-direction: column !important;
-      align-items: center !important;
-      justify-content: center !important;
   }
   #root {
       max-width: 100% !important;
