@@ -11,18 +11,3 @@
   width: 490px;
   height: 247px;
 }
-
-@media (max-width: 414px) {
-  .banner-container {
-    max-width: 414px;
-    max-height: 188.02px;
-    grid-template-columns: 1fr;
-    padding-top: 23px;
-    gap: 20px;
-    margin: auto 22px;
-  }
-  .banner-container img {
-    width: 373px;
-    height: 188.02px;
-  }
-}
