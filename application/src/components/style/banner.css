@@ -1,28 +1,28 @@
 .banner-container {
-  max-width: 1004px;
+  max-width: 62.75rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding-top: 30px;
+  gap: 1.25rem;
+  padding-top: 1.875rem;
 }
 
 .banner-container img {
   width: 100%;
-  height: 247px;
+  height: 15.438rem;
 }
 
 @media (max-width: 667px) {
  .banner-container {
   max-width: 100%;
   grid-template-columns: 1fr;
-  padding-top: 23px;
-  gap: 20px;
+  padding-top: 1.438rem;
+  gap: 1.25rem;
   margin: 0;
 }
   .banner-container img {
-    width: 90%;
-    height: 188.02px;
-    margin: auto 22px auto 19px;
+    width: 23.313rem;
+    height: 11.751rem;
+    margin: auto 1.375rem auto 1.188rem;
   }
 }

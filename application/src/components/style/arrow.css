@@ -2,54 +2,54 @@
   background-color: #444444;
   border: none;
   cursor: pointer;
-  width: 40px;
-  height: 53px;
+  width: 2.5rem;
+  height: 3.313rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 175px;
-  left: -51px;
+  top: 10.938rem;
+  left: -3.188rem;
 }
 
 .last-slide-left {
   background-color: #CCCCCC;
   border: none;
-  width: 40px;
-  height: 53px;
+  width: 2.5rem;
+  height: 3.313rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 175px;
-  left: -51px;
+  top: 10.938rem;
+  left: -3.188rem;
 }
 
 .arrow-right {
   background-color: #444444;
   border: none;
   cursor: pointer;
-  width: 40px;
-  height: 53px;
+  width: 2.5rem;
+  height: 3.313rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 175px;
-  right: -53px;
+  top: 10.938rem;
+  right: -3.313rem;
 }
 
 .last-slide-right {
   background-color: #CCCCCC;
   border: none;
-  width: 40px;
-  height: 53px;
+  width: 2.5rem;
+  height: 3.313rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 175px;
-  right: -53px;
+  top: 10.938rem;
+  right: -3.313rem;
 }
 
 @media (max-width: 667px) {
