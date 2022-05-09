@@ -51,7 +51,7 @@ export default class PreviousNextMethods extends React.Component {
         {
           breakpoint: 667,
           settings: {
-            slidesToShow: 1.5,
+            slidesToShow: 1.6,
             slidesToScroll: 1,
             infinite: false,
             dots: true,
@@ -65,7 +65,7 @@ export default class PreviousNextMethods extends React.Component {
       ]
     };
     return (
-      <div className='slider-container'>
+      <div className="carrossel-container">
         <Slider ref={c => (this.slider = c)} {...settings}>
           { mock.map((i, index) => (
             <SliderCard key={index} card={i} />

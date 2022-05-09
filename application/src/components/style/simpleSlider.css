@@ -1,12 +1,12 @@
+.carrossel-container {
+  position: relative;
+  width: 63.75rem;
+  margin: 0 auto 3.125rem auto;
+}
+
 .slick-slide div {
   display: flex;
   justify-content: space-around;
-}
-
-.slider-container {
-  width: 63.75rem;
-  position: relative;
-  margin: 0 auto 3.125rem auto;
 }
 
 .slick-dots ul {
@@ -31,7 +31,7 @@
 }
 
 @media (max-width: 667px) {
-  .slider-container {
+  .carrossel-container {
     width: 25.875rem;
     position: relative;
     margin: 0 auto 3.125rem auto;
