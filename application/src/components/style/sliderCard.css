@@ -4,77 +4,77 @@
   font-family: nunito, sans-serif;
   align-items: center;
   justify-content: center;
-  width: 235px;
-  min-height: 402px;
-  max-height: 471px;
-  margin-bottom: 30px;
-  border: 1px solid #eeeeee;
+  width: 14.688rem;
+  min-height: 25.125rem;
+  max-height: 29.438rem;
+  margin-bottom: 1.875rem;
+  border: 0.063rem solid #eeeeee;
   position: relative;
 }
 
 .card-container img {
-  height: 261px;
+  height: 16.313rem;
   margin: 0;
 }
 
 .card-container h3 {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
-  line-height: 16.17px;
+  line-height: 1.011rem;
   color: #666666;
   text-transform: uppercase;
-  margin: 10px 12px;
+  margin: 0.625rem 0.75rem;
 }
 
 .card-container h2 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  line-height: 19.1px;
+  line-height: 1.194rem;
   color: #000000;
   text-transform: uppercase;
-  margin-left: 12px;
+  margin-left: 0.75rem;
 }
 
 .card-container span {
-  font-size: 8px;
+  font-size: 0.5rem;
   font-weight: 700;
-  line-height: 10.91px;
+  line-height: 0.682rem;
   color: #666666;
   position: absolute;
   text-transform: uppercase;
-  top: 10px;
-  left: 10px;
+  top: 0.625rem;
+  left: 0.625rem;
 }
 
 .verao-2022 {
-  border: 1px solid #666666;
-  padding: 5px 5px 4px 6px;
+  border: 0.063rem solid #666666;
+  padding: 0.313rem 0.313rem 0.25rem 0.375rem;
 }
 
 .off-20 {
-  padding: 5px 6px 4px 6px;
+  padding: 0.313rem 0.375rem 0.25rem 0.375rem;
   background-color: #EBD7CE;
 }
 
 .lancamento {
-  padding: 5px 6px 4px 7px;
+  padding: 0.313rem 0.375rem 0.25rem 0.438rem;
   background-color: #824D3E;
   color: #ffffff !important;
 }
 
 .text-container {
   display: flex;
-  height: 79px;
+  height: 4.938rem;
   flex-direction: column;
 }
 
 .card-title {
-  margin-bottom: 9px;
+  margin-bottom: 0.563rem;
 }
 
 .price-container h2 {
   margin-top: 0;
-  margin-bottom: 1px;
+  margin-bottom: 0.063rem;
 }
 
 .price-container h3 {
@@ -85,26 +85,26 @@
 .icon-heart {
   position: absolute;
   cursor: pointer;
-  width: 15.68px;
-  height: 13.67;
-  top: -112.25px;
-  right: 12.16px;
+  width: 0.98rem;
+  height: 0.854rem;
+  top: -7.016rem;
+  right: 0.76rem;
 }
 
 .purchase-btn {
-  height: 42px;
-  width: 205px;
+  height: 2.625rem;
+  width: 12.813rem;
   color: #ffffff;
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
-  line-height: 17.07px;
-  letter-spacing: 1px;
+  font-size: 0.875rem;
+  line-height: 1.067rem;
+  letter-spacing: 0.063rem;
   background-color: #824D3E;
   border: none;
-  margin: 25px 0 17px 0;
+  margin: 1.563rem 0 1.063rem 0;
 }
 
 .price-container {
@@ -114,6 +114,6 @@
 
 @media (max-width: 667px) {
   .card-container {
-    margin-left: 20px;
+    margin-left: 1.25rem;
   }
 }

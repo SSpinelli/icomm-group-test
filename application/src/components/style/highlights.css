@@ -1,5 +1,5 @@
 main {
-  max-width: 1120px;
+  max-width: 70rem;
   margin: 0 auto;
 }
 
@@ -7,10 +7,10 @@ main {
   text-transform: uppercase;
   font-family: nunito, sans-serif;
   font-weight: 400;
-  font-size: 26px;
-  line-height: 35.46px;
-  margin-bottom: 21px;
-  margin-top: 42px;
+  font-size: 1.625rem;
+  line-height: 2.216rem;
+  margin-bottom: 1.313rem;
+  margin-top: 2.625rem;
 }
 
 .h1-container {

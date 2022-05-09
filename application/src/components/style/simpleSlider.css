@@ -4,9 +4,9 @@
 }
 
 .slider-container {
-  width: 1020px;
+  width: 63.75rem;
   position: relative;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 3.125rem auto;
 }
 
 .slick-dots ul {
@@ -16,7 +16,7 @@
 }
 
 .slick-dots ul li {
-  margin-right: 1px;
+  margin-right: 0.063rem;
 }
 
 .slick-active {
@@ -24,16 +24,16 @@
 }
 
 .slick-dots li button:before {
-  margin-top: 15px;
-  height: 16px;
-  width: 16px;
-  font-size: 16px;
+  margin-top: 0.938rem;
+  height: 1rem;
+  width: 1rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 667px) {
   .slider-container {
-    width: 414px;
+    width: 25.875rem;
     position: relative;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 3.125rem auto;
   }
 }

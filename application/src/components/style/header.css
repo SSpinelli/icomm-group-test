@@ -4,8 +4,8 @@ header {
 }
 
 nav {
-  max-width: 1004px;
-  height: 90px;
+  max-width: 62.75rem;
+  height: 5.625rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -17,19 +17,19 @@ nav {
 }
 
 .logo-container img {
-  margin-right: -40px;
+  margin-right: -2.5rem;
 }
 
 .logo-container h2 {
   font-family: montserrat, sans-serif;
-  font-size: 26px;
-  line-height: 32px;
-  letter-spacing: 7px;
+  font-size: 1.625rem;
+  line-height: 2rem;
+  letter-spacing: 0.438rem;
 }
 
 .container-cart {
-  width: 33px;
-  height: 29.08px;
+  width: 2.063rem;
+  height: 1.818rem;
   position: relative;
 }
 
@@ -38,15 +38,15 @@ nav {
   justify-content: center;
   align-items: center;
   position: absolute;
-  height: 15.95px;
-  width: 16px;
-  font-size: 10px;
+  height: 0.997rem;
+  width: 1rem;
+  font-size: 0.625rem;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
   color: #000;
   background-color: #EBD7CE;
   border-radius: 50%;
-  left: 15px;
+  left: 0.938rem;
   top: 0;
 }
 
@@ -55,9 +55,9 @@ nav {
     width: 100%;
   }
   .logo-container {
-    margin-left: 19.56px;
+    margin-left: 1.223rem;
   }
   .container-cart {
-    margin-right: 16px;
+    margin-right: 1rem;
   }
 }
