@@ -111,9 +111,3 @@
   display: flex;
   flex-direction: column;
 }
-
-@media (max-width: 667px) {
-  .card-container {
-    margin-left: 1.25rem;
-  }
-}

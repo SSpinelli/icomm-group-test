@@ -17,6 +17,11 @@ export default class PreviousNextMethods extends React.Component {
     }
   }
 
+  componentDidMount() {
+    const sliderChild = document.querySelectorAll('.card-container');
+    console.log(sliderChild);
+  }
+
   next() {
     const { countSlider } = this.state;
     this.setState({countSlider: countSlider + 1}, this.slider.slickNext())

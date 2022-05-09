@@ -36,4 +36,7 @@
     position: relative;
     margin: 0 auto 3.125rem auto;
   }
+  .slick-track {
+    margin-right: 1.25rem !important;
+  }
 }
